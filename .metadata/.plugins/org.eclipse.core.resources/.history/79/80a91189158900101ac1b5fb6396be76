@@ -1,0 +1,21 @@
+package exemplos;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		//Criar novo objeto = instancia
+		Conta conta1 = new Conta();
+		conta1.numero = 123;
+		conta1.titular = "Adriano";
+		conta1.saldo = 1000.;
+		
+		conta1.deposito(100);
+		System.out.println("Saldo atual:"+conta1.saldo);
+		System.out.println("Saque efetuado!");
+		
+		conta1.saque(200);
+		System.out.println("Saldo atual:"+conta1.saldo);
+		
+	}
+
+}
