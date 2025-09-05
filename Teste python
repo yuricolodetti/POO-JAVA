@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMbX4s3FZ5Dnb8nkXXwXzTi",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yuricolodetti/POO-JAVA/blob/main/Teste%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(5))\n",
+        "\n",
+        "print(507 % 2)\n",
+        "num1 = 5\n",
+        "num2 = 10\n",
+        "\n",
+        "#ariavel\n",
+        "fruta = \"Maçã\"\n",
+        "nome = \"Lan Code\"\n",
+        "Nome = \"Rogério\"\n",
+        "\n",
+        "print(fruta)\n",
+        "print(nome)\n",
+        "print(Nome)\n",
+        "\n",
+        "\n",
+        "nome_do_canal = \"Lan Code\"\n",
+        "print(nome_do_canal)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hC19gXsm3xsz",
+        "outputId": "4661301b-1c6b-4dd2-e0c5-8c6a2c287ddf"
+      },
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "1\n",
+            "Maçã\n",
+            "Yuri\n",
+            "Rogério\n",
+            "Lan Code\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "resultado = num1 + num2\n",
+        "\n",
+        "\n",
+        "print(resultado)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "axKloq_56Ose",
+        "outputId": "7941b96c-72ab-48ec-8c42-b4b4497d9606"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "130\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Digite o seu nome: \")\n",
+        "\n",
+        "print(f\"Olá\",nome, \"Seja bem vindo a vida de programador\")\n"
+      ],
+      "metadata": {
+        "id": "gZ-VRNX06nkl"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
